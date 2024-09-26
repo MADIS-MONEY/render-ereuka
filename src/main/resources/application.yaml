@@ -10,6 +10,6 @@ eureka:
     register-with-eureka: false  # This server does not register with itself
     fetch-registry: false        # This server does not fetch the registry
   instance:
-    hostname: ${HOSTNAME:localhost}
+    hostname: ${HOSTNAME:https://render-ereuka.onrender.com}
   server:
     enable-self-preservation: false # Optional for testing environments

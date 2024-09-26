@@ -1,4 +1,5 @@
 server:
+  address: 0.0.0.0
   port: ${PORT:8761} # Default port for Eureka server
 
 spring:

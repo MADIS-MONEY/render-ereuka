@@ -1,6 +1,10 @@
 server:
   port: ${PORT:8761} # Default port for Eureka server
 
+spring:
+  application:
+    name: eureka-service
+
 eureka:
   client:
     register-with-eureka: false  # This server does not register with itself
